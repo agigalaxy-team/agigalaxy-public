@@ -7,6 +7,10 @@ from urllib.parse import urljoin
 ROOT = Path(__file__).resolve().parents[1]
 RAW = "https://raw.githubusercontent.com/agigalaxy-team/agigalaxy-public/main/"
 DOCUMENTS = [
+    "docs/vision-and-architecture.md",
+    "docs/ecosystem-and-hubs.md",
+    "docs/business-and-participation.md",
+    "docs/open-components.md",
     "docs/technical-faq.md",
     "docs/native-client/0.1.16/runtime.md",
     "docs/native-client/0.1.16/hosts.md",

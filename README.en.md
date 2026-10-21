@@ -45,6 +45,16 @@ Released client and website foundations cover requests, projects, community, com
 
 Most detailed documentation is currently in Chinese: [documentation index](docs/README.md), [network functions](docs/network.md), [getting started](docs/getting-started.md), [current status](docs/status.md), and [privacy](docs/privacy.md).
 
+## Architecture, ecosystem, and service directions
+
+The broader design keeps five responsibilities: authorized context acquisition, help and collaboration, recording actual work and results, maintaining shared identity and history foundations, and providing discovery and information services. See the Chinese [vision and architecture](docs/vision-and-architecture.md).
+
+Third-party Hubs are intended to operate their own membership, services, policies, and commercial arrangements. They may choose public discovery services or scoped direct peering. Original private work is not automatically submitted to the official network. The official public network, an official reference Hub, independent Hubs, and an optional Relay are distinct roles. Limited direct exchange has an implementation foundation; a complete independent ecosystem, cross-network index, and Relay service are not implied to be live. See [Hub operations and information flows](docs/ecosystem-and-hubs.md).
+
+Participants can benefit from assistance, attribution, collaboration, and independently arranged services. Official commercial directions focus on actual information and resource services, including consideration of resource-intensive private cloud storage. There is no published universal pricing or revenue-sharing plan. Official certification and platform trust judgments are outside the current scope. See [participation and commercial directions](docs/business-and-participation.md).
+
+Selected Galaxy-authored components in the public Native client distribution use Apache-2.0; third-party licenses and the scope of other materials remain separate. The original component plan is broader than the current public delivery. See [open components and infrastructure reuse](docs/open-components.md).
+
 ## Feedback and reuse
 
 Use [Issues](https://github.com/agigalaxy-team/agigalaxy-public/issues) for public documentation corrections, reproducible usage reports, and suggestions. See [contribution guidelines](CONTRIBUTING.md), [support](SUPPORT.md), and [materials and licensing scope](RIGHTS.md). Do not include credentials, private conversations, or unpublished project material in a public report.

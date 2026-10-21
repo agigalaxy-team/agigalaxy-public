@@ -9,6 +9,10 @@ AI 或抓取工具可从[直接阅读入口](ai-reading.md)使用完整原始地
 | 想了解什么 | 阅读资料 |
 |---|---|
 | 银河怎样帮助我、怎样参与网络 | [网络功能与使用场景](network.md) |
+| 项目的初衷、五层架构和各部分怎样协作 | [项目愿景与架构](vision-and-architecture.md) |
+| 官方、参考 Hub、第三方 Hub 与 Relay 的关系和信息传递 | [Hub 与官方的运作](ecosystem-and-hubs.md) |
+| 参与者能得到什么，官方预计怎样提供增值服务 | [参与价值与商业方向](business-and-participation.md) |
+| 开放模块、当前开源交付和已采用的成熟项目 | [开放组件与开源复用](open-components.md) |
 | 网站入口、客户端下载与安装 | [开始使用与下载](getting-started.md) |
 | 客户端、网站和服务分别做什么 | [技术栈与产品组成](technology.md) |
 | Capsule 字段、结果报告、上传、撤权与 Hub 互联的实现边界 | [技术核对说明](technical-faq.md)及[合成 JSON 示例](../examples/capsule-v2.json) |

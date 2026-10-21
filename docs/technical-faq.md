@@ -150,6 +150,8 @@ Bridge 描述外部系统的来源对象、目标对象、映射规则、授权�
 
 Hub、Bridge 和有限互联有具体实现基础，多独立运营者、企业完整环境和长期互通效果仍需要实际部署及使用验证。
 
+关于官方公共网络、参考 Hub、第三方独立经营、可选索引和 Relay 的完整角色关系，以及查询、来源授权和后续协作的分步信息流，另见 [Hub 与官方的运作](ecosystem-and-hubs.md)。
+
 ## 6. 这些说明的可复核依据
 
 公开客户端入口：[0.1.16 安装包](https://agigalaxy.org/downloads/native-client/0.1.16/galaxy-native-client-0.1.16-install.zip)。本次取得的 ZIP SHA-256 为：
