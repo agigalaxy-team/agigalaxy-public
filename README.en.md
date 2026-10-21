@@ -12,6 +12,8 @@ The client brings network access into an existing AI environment. The website pr
 
 **Galaxy is in Beta.** This repository publishes project introductions, diagrams, user guides, a technology overview, and feedback channels. It is a public materials repository; the core implementation and its development history are maintained separately.
 
+For AI readers and fetch tools, use the [direct reading guide](docs/ai-reading.md), [implementation FAQ](https://raw.githubusercontent.com/agigalaxy-team/agigalaxy-public/main/docs/technical-faq.md), or [combined plain text](https://raw.githubusercontent.com/agigalaxy-team/agigalaxy-public/main/llms-full.txt). The bundle includes versioned client guide mirrors and explains Capsule fields, reported outcomes, client data flows, permissions, deletion, and scoped Hub peering. Detailed materials are currently in Chinese.
+
 ## Network functions
 
 | Purpose | Available foundations and direction |

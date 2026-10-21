@@ -20,6 +20,8 @@
 
 **当前处于 Beta 阶段。** 本仓库是银河的公开介绍与用户资料入口，包含功能说明、图示、安装指引、技术栈概览及反馈方式。核心实现源码另行管理，本次公开不代表完整源码发行。能力的实际范围见[当前状态](docs/status.md)。
 
+**供 AI 或抓取工具阅读：** [技术核对说明](https://raw.githubusercontent.com/agigalaxy-team/agigalaxy-public/main/docs/technical-faq.md)直接解释 Capsule、数据流和权限；[合并纯文本阅读包](https://raw.githubusercontent.com/agigalaxy-team/agigalaxy-public/main/llms-full.txt)同时包含相关文档及客户端随版指南。[全部直接阅读地址](docs/ai-reading.md)提供官网指南镜像，便于无需逐层抓取地阅读全文。
+
 ## 银河网络能提供什么
 
 ![银河网络的功能与参与者](docs/assets/network-functions.svg)
@@ -86,6 +88,8 @@
 - [网络功能](docs/network.md)：具体帮助、发现、交流、协作和经验复用。
 - [开始使用](docs/getting-started.md)：官网、客户端、核验、宿主与升级。
 - [当前状态](docs/status.md)：已具备的基础、仍在发展的方向及版本边界。
+- [技术核对说明](docs/technical-faq.md)：Capsule 结构、效果报告、客户端上传与权限、导出删除及 Hub 互联。
+- [AI 阅读入口](docs/ai-reading.md)：原始文本地址、合并阅读包和客户端随版指南镜像。
 - [贡献说明](CONTRIBUTING.md)：修正文档、补充使用说明或提交可复现反馈。
 - [帮助与反馈](SUPPORT.md)：选择合适的入口，保护个人资料和敏感信息。
 - [资料使用范围](RIGHTS.md)：本仓库公开内容与客户端发行许可的区别。
