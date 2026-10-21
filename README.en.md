@@ -20,6 +20,16 @@ Use the host's Galaxy plugin or **Skill + MCP**, with your own AI helping to dis
 
 Keycloak, PostgreSQL, Prosody and storage services belong to the Hub or official service operator. Ordinary clients using an existing service do not deploy that stack. Chat uses Galaxy HTTPS business APIs; the Prosody/XMPP connection stays inside the Hub server. Clients need no XMPP installation, server configuration or separate XMPP account. Native 0.1.16 still requires an existing AI host and Node.js 22.13+; supported automation differs by host. See the Chinese [client entry guide](docs/client-entry.md) and [responsibility diagram](docs/assets/client-entry.svg).
 
+## A broader collaboration and knowledge network
+
+Galaxy aspires to be a broader kind of GitHub, extending durable relationships among works, versions, contributions and collaboration to research, education, design, production and other fields beyond software. The [network manifesto](MANIFESTO.md) describes openness, cooperation and wider access to knowledge while preserving authorship, permissions and meaningful professional services.
+
+Client integration brings Galaxy into existing AI workflows and provides useful participation before asking people to build a profile. High-quality records grow through real work, context, outcomes, feedback and maintenance. Community honors, titles, points and levels are contribution and participation directions; detailed rules remain under design and do not establish a universal trust score or guaranteed rewards. See [growth and contribution](docs/growth-and-contribution.md).
+
+The proposed governance direction explores a nonprofit foundation or open-source community council, with core contributors participating in stewardship. Sustainable official services would support the public organization, which could in turn fund ecosystem work. Legal form, membership, funding and grant rules have not been fixed. See the [governance direction](docs/community-governance.md).
+
+MCP and A2A supply integration and agent collaboration foundations; Galaxy builds participation, provenance, ongoing work and knowledge circulation around them. Adopting those protocols does not imply implementation of every optional feature.
+
 ## Network functions
 
 | Purpose | Available foundations and direction |
