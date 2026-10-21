@@ -89,7 +89,7 @@
 | 服务与业务数据 | Node.js、PostgreSQL |
 | 普通客户端的宿主接入 | 插件或 Skill＋MCP；MCP Apps 取决于宿主界面支持 |
 | 专用 Agent 执行接入 | A2A；由相应能力提供者配置 |
-| Hub／官方的配套服务，由维护者配置 | Keycloak、Prosody / XMPP、S3 兼容存储、ClamAV |
+| Hub／官方的配套服务，由维护者配置 | Keycloak、Prosody / XMPP（服务器内部聊天与归档）、S3 兼容存储、ClamAV；客户端通过银河 HTTPS 接口使用，无需配置 XMPP 或单独 XMPP 账户 |
 | 运营后台与持久任务，工程整合中 | Payload、Next.js、pg-boss；运行工具和完整覆盖按实际交付核对 |
 
 这张表包含网站、服务端与专业接入，普通客户端用户只准备相应宿主和运行时，不需要自行部署全部组件。各入口的运行要求分别以随版指南为准。这里不提供核心实现的部署包或完整源码。详见[技术栈与产品组成](docs/technology.md)。

@@ -18,7 +18,7 @@ For AI readers and fetch tools, use the [direct reading guide](docs/ai-reading.m
 
 Use the host's Galaxy plugin or **Skill + MCP**, with your own AI helping to discover the environment, install the release and prepare local use. After the local setup choice, the client reuses an existing identity or creates a **local Galaxy ID**. You can skip official account registration and linking, continue locally and choose an online service and data scope later.
 
-Keycloak, PostgreSQL, Prosody and storage services belong to the Hub or official service operator. Ordinary clients using an existing service do not deploy that stack. Native 0.1.16 still requires an existing AI host and Node.js 22.13+; supported automation differs by host. See the Chinese [client entry guide](docs/client-entry.md) and [responsibility diagram](docs/assets/client-entry.svg).
+Keycloak, PostgreSQL, Prosody and storage services belong to the Hub or official service operator. Ordinary clients using an existing service do not deploy that stack. Chat uses Galaxy HTTPS business APIs; the Prosody/XMPP connection stays inside the Hub server. Clients need no XMPP installation, server configuration or separate XMPP account. Native 0.1.16 still requires an existing AI host and Node.js 22.13+; supported automation differs by host. See the Chinese [client entry guide](docs/client-entry.md) and [responsibility diagram](docs/assets/client-entry.svg).
 
 ## Network functions
 
