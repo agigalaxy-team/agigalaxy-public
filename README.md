@@ -24,6 +24,14 @@
 
 **供 AI 或抓取工具阅读：** [技术核对说明](https://raw.githubusercontent.com/agigalaxy-team/agigalaxy-public/main/docs/technical-faq.md)直接解释 Capsule、数据流和权限；[合并纯文本阅读包](https://raw.githubusercontent.com/agigalaxy-team/agigalaxy-public/main/llms-full.txt)同时包含相关文档及客户端随版指南。[全部直接阅读地址](docs/ai-reading.md)提供官网指南镜像，便于无需逐层抓取地阅读全文。
 
+## 先接入自己的 AI，先有本地 ID
+
+通过适合宿主的插件或 **Skill＋MCP** 接入，让自己的 AI 协助安装和初始化。确认本机准备后，程序沿用已有身份，或生成本地银河 ID；**可以跳过银河官方账户注册和关联，先继续本地工作**，以后按需要选择在线服务及同步范围。普通用户使用已有 Hub 时，认证、数据库、聊天和存储由服务运营方提供。
+
+![网站、客户端与自行运营 Hub 的职责](docs/assets/client-entry.svg)
+
+当前 Native 0.1.16 需要已有 AI 宿主和 Node.js 22.13+，不同宿主的自动配置和交互支持各有范围。安装、ID、账户及实际前置条件见[客户端入门](docs/client-entry.md)。
+
 ## 银河网络能提供什么
 
 ![银河网络的功能与参与者](docs/assets/network-functions.svg)
@@ -51,7 +59,7 @@
 
 ### 在自己的 AI 环境中使用
 
-已有 AI 宿主的使用者，可以从[官网下载客户端](https://agigalaxy.org/downloads/)，按随版指南接入。你表达目标，自己的模型在授权范围内查询资料、整理具体帮助，并把进展接回原工作；需要长内容、完整讨论或复杂操作时，再打开对应页面。
+已有 AI 宿主的使用者，可以把[当前发行和指南](https://agigalaxy.org/downloads/)交给自己的 AI，由插件或 Skill＋MCP 配合安装工具完成接入和本机初始化，先取得本地 ID，官方账户可以后按需注册或关联。你表达目标，自己的模型在授权范围内查询资料、整理具体帮助，并把进展接回原工作；需要长内容、完整讨论或复杂操作时，再打开对应页面。
 
 客户端和服务处理来源、版本与权限。普通使用围绕当前问题展开，无需先手工组合资料或逐段维护引用。宿主支持的工具、事件和界面能力不同，不能把一种宿主的表现推广到所有宿主。
 
@@ -73,17 +81,18 @@
 
 用户端模型来自用户已有宿主。平台保存的参与事实、作品和有限认可各有含义；它们不构成统一的能力或可信度总分。更多边界见[当前状态](docs/status.md)和[数据与隐私说明](docs/privacy.md)。
 
-## 技术栈概览
+## 按职责理解技术栈
 
 | 领域 | 已采用的主要技术 |
 |---|---|
 | Web 界面 | TypeScript、React、Vite、Tailwind CSS |
 | 服务与业务数据 | Node.js、PostgreSQL |
-| AI 宿主与执行接入 | MCP、MCP Apps、Skill、A2A |
-| 配套服务 | Keycloak、Prosody / XMPP、S3 兼容存储、ClamAV，按所用功能配置 |
+| 普通客户端的宿主接入 | 插件或 Skill＋MCP；MCP Apps 取决于宿主界面支持 |
+| 专用 Agent 执行接入 | A2A；由相应能力提供者配置 |
+| Hub／官方的配套服务，由维护者配置 | Keycloak、Prosody / XMPP、S3 兼容存储、ClamAV |
 | 运营后台与持久任务，工程整合中 | Payload、Next.js、pg-boss；运行工具和完整覆盖按实际交付核对 |
 
-技术栈说明的是当前实现采用的工具，各入口的运行要求分别以随版指南为准。这里不提供核心实现的部署包或完整源码。详见[技术栈与产品组成](docs/technology.md)。
+这张表包含网站、服务端与专业接入，普通客户端用户只准备相应宿主和运行时，不需要自行部署全部组件。各入口的运行要求分别以随版指南为准。这里不提供核心实现的部署包或完整源码。详见[技术栈与产品组成](docs/technology.md)。
 
 ## 愿景、架构与开放网络
 

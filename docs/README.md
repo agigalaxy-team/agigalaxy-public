@@ -8,6 +8,7 @@ AI 或抓取工具可从[直接阅读入口](ai-reading.md)使用完整原始地
 
 | 想了解什么 | 阅读资料 |
 |---|---|
+| 客户端如何低门槛接入、先生成 ID、以后关联账户 | [客户端入门与职责图](client-entry.md) |
 | 银河怎样帮助我、怎样参与网络 | [网络功能与使用场景](network.md) |
 | 项目的初衷、五层架构和各部分怎样协作 | [项目愿景与架构](vision-and-architecture.md) |
 | 官方、参考 Hub、第三方 Hub 与 Relay 的关系和信息传递 | [Hub 与官方的运作](ecosystem-and-hubs.md) |

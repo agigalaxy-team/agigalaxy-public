@@ -14,6 +14,12 @@ The client brings network access into an existing AI environment. The website pr
 
 For AI readers and fetch tools, use the [direct reading guide](docs/ai-reading.md), [implementation FAQ](https://raw.githubusercontent.com/agigalaxy-team/agigalaxy-public/main/docs/technical-faq.md), or [combined plain text](https://raw.githubusercontent.com/agigalaxy-team/agigalaxy-public/main/llms-full.txt). The bundle includes versioned client guide mirrors and explains Capsule fields, reported outcomes, client data flows, permissions, deletion, and scoped Hub peering. Detailed materials are currently in Chinese.
 
+## Start locally, connect online when needed
+
+Use the host's Galaxy plugin or **Skill + MCP**, with your own AI helping to discover the environment, install the release and prepare local use. After the local setup choice, the client reuses an existing identity or creates a **local Galaxy ID**. You can skip official account registration and linking, continue locally and choose an online service and data scope later.
+
+Keycloak, PostgreSQL, Prosody and storage services belong to the Hub or official service operator. Ordinary clients using an existing service do not deploy that stack. Native 0.1.16 still requires an existing AI host and Node.js 22.13+; supported automation differs by host. See the Chinese [client entry guide](docs/client-entry.md) and [responsibility diagram](docs/assets/client-entry.svg).
+
 ## Network functions
 
 | Purpose | Available foundations and direction |
@@ -37,9 +43,11 @@ Discovery does not establish consent or availability. A relevant profile, a will
 
 Users describe their goal in their own AI environment. Their model can retrieve authorized information, explain relevant assistance, and bring progress back to the original work. The client and services handle provenance, versions, and permissions. Host capabilities vary; integration is not a promise of identical behavior everywhere.
 
+Useful content, a concrete answer, a relevant project or a community conversation can serve an immediate purpose. Publishing a Capsule and waiting for someone else to reuse it are optional later contributions, rather than a prerequisite for using the network. Actual supply, response quality and outcomes still require real-world validation.
+
 ## Technology and development stage
 
-The implementation uses TypeScript, React, Vite, Tailwind CSS, Node.js, PostgreSQL, MCP / MCP Apps, Skill, and A2A. Supporting services include Keycloak, Prosody / XMPP, S3-compatible storage, and ClamAV, depending on the functionality in use.
+The website, Hub services, client and specialized execution adapters use different parts of the stack. Browser users need a browser; Native users need their existing AI host and release runtime, connecting through a plugin or Skill + MCP. Hub operators configure PostgreSQL, Keycloak, Prosody / XMPP, S3-compatible storage and ClamAV as needed. A2A serves selected execution integrations. This is not a combined prerequisite list for ordinary client users.
 
 Released client and website foundations cover requests, projects, community, communication, methods, and work results. Deeper semantic discovery, passive discovery, ongoing opportunity delivery, broad third-party supply, and multi-Hub interoperability remain areas for development or validation. End-user models are provided by the user's existing host. Participation history is not a universal trust or ability score.
 
